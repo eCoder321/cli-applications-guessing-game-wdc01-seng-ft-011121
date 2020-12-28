@@ -8,7 +8,7 @@ def run_guessing_game
   
   #binding.pry
   
-  if user_input.to_i == random_number
+  if random_number == user_input.to_i
     puts "You guessed the correct number!"
   elsif user_input == "exit"
     puts "Goodbye!"
